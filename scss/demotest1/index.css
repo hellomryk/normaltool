@@ -1,0 +1,51 @@
+/*
+Error: File to import not found or unreadable: mobile.
+        on line 1 of index.scss
+
+1: @import "mobile";
+2: .onehang{
+3: 	height:pxToRem(98);
+4: 	background-color:#00b459;
+5: 	background-size:100%;
+6: 	var{
+
+Backtrace:
+index.scss:1
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:67:in `rescue in import'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:45:in `import'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:28:in `imported_file'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:37:in `css_import?'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `block in with_base'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `with_base'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:161:in `visit'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:10:in `visit'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/root_node.rb:36:in `css_tree'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/engine.rb:307:in `render_with_sourcemap'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:391:in `run'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/exec/base.rb:52:in `parse'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/exec/base.rb:19:in `parse!'
+D:/20180502tool/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/bin/sass:13:in `<top (required)>'
+D:/20180502tool/Ruby23-x64/bin/sass:22:in `load'
+D:/20180502tool/Ruby23-x64/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: mobile.\A         on line 1 of index.scss\A \A 1: @import \"mobile\";\A 2: .onehang{\A 3: 	height:pxToRem(98);\A 4: 	background-color:#00b459;\A 5: 	background-size:100%;\A 6: 	var{"; }
